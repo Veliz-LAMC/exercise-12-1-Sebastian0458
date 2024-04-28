@@ -88,6 +88,26 @@ header img {
 main {
 	clear: left;
 }
+table {
+	border-collapse: collapse;
+}
+th, td {
+	padding: .2em .7em;
+	text-align: left;
+}
+thead, tfoot {
+	border-top: 3px solid #800000;
+	border-bottom: 3px solid #800000;
+}
+tfoot {
+	font-weight: bold;
+}
+.border-bottom {
+	border-bottom: 3px solid #800000;
+}
+.right {
+	text-align: right;
+}
 
 /* the styles for the section */
 section {
